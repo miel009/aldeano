@@ -1,10 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+.jersey-15-regular {
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+   
 body{
     background-image:url("fondo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed; 
 }
-
 
 .contenedor-juego {
     position: absolute;
@@ -17,23 +23,25 @@ body{
     border: 2px solid #ffffff;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-   
-  }
+    
+}
   
-p{ 
+p {  
+    font: 200;
     text-align: center;
     color: azure;
-    font-family: monospace;
-    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
- button{
+
+button {
  margin: 110px;
  padding: 30x;
-
+ font-family: "Jersey 15", sans-serif;
+ font-weight: bolder;
 }
 
-a{  
-    font-family: monospace;
+a {  
+    font-family: "Jersey 15", sans-serif;;
     text-align: center;
     color: black;
     text-decoration: none;

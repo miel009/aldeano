@@ -42,7 +42,7 @@ $pesca = new Pesquero();
     <!--creacion de personajes-->
   
     <div class="card mx-4 my-4" style="width: 18rem;">
-          <img src="assets/arbusto.jpg" class="card-img" alt="...">
+          <img src="assets/peces.jpg" class="card-img" alt="...">
       <div class="card-body">
         <h5 class="card-title">  Alimento disponible: <?php echo $pesca->recolectar() ?>  </h5>
         <a href="resultadoPesquero.php" class="btn btn-primary"> Pescar </a>

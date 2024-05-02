@@ -40,7 +40,7 @@ $pesquero1 = new Pesquero();
            </div>
            <!--creacion de personajes aldeano 2-->
           <div class="card mx-4 my-4" style="width: 18rem;">
-              <img src="assets/aldeano.png" class="card-img-top" alt="...">
+              <img src="assets/pesquero.jpg" class="card-img-top" alt="...">
               <div class="card-body">
                 <p class="card-title"> <?php echo $pesquero1->nombre ?> </p>
                 <p> Recolecte del banco de pesca: <?php echo $pesquero1-> recolectar() ?> de alimento </p>              

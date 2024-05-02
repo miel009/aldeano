@@ -34,7 +34,7 @@ $arbusto2 = new Arbusto();
   
   <main class="container" >
   
-  <h2> DETALLE DE PERSONAJE FRANCO: </h2>
+  <h2> DETALLE DE PERSONAJE ALDEANO FRANCO: </h2>
       <div class="row mt-5">
          <div class="col-ml-12">
            </div>

@@ -8,8 +8,8 @@ require './clases/Pesquero.php';
 require './clases/RecolectableInterface.php';
 require './clases/RecolectorInterface.php';
 
-$aldeano1 = new AldeanoChino(); 
-$arbusto1 = new Arbusto();
+
+$pesquero1 = new Pesquero();
 
 
 ?>
@@ -34,22 +34,21 @@ $arbusto1 = new Arbusto();
   
   <main class="container" >
   
-  <h2> DETALLE DE PERSONAJE ALDEANO CHINO: </h2>
+  <h2> DETALLE DE PERSONAJE PESQUERO: </h2>
       <div class="row mt-5">
          <div class="col-ml-12">
            </div>
-           <!--creacion de personajes aldeano 1-->
+           <!--creacion de personajes aldeano 2-->
           <div class="card mx-4 my-4" style="width: 18rem;">
               <img src="assets/aldeano.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <p><?php echo $aldeano1->nombreAldeano ?></p>
-                <p> <?php echo $aldeano1-> getBonus() ?> </p>
-                <p class="card-title"> <?php $aldeano1->recolectar($arbusto1); ?> </p>
+                <p class="card-title"> <?php echo $pesquero1->nombre ?> </p>
+                <p> Recolecte del banco de pesca: <?php echo $pesquero1-> recolectar() ?> de alimento </p>              
                 <a href="juego.php" class="btn btn-primary"> volver a inicio </a>
               </div>
           </div>         
 
-        <!--fin de cards-->
+        <!--fin de card-->
       </div>
   </div>
 

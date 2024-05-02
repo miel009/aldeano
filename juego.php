@@ -45,7 +45,7 @@ $pesquero = new Pesquero();
         <div class="card-body">
           <h5 class="card-title"> <?php echo $aldeano->nombreAldeano ?> </h5>
           <p> <?php echo $aldeano->getBonus() ?> </p>
-          <a href="comida.php" class="btn btn-primary">Jugar</a>
+          <a href="comidaF.php" class="btn btn-primary">Jugar</a>
         </div>
       </div>
 
@@ -54,7 +54,7 @@ $pesquero = new Pesquero();
         <div class="card-body">
           <h5 class="card-title"> <?php echo $aldeano2->nombreAldeano ?> </h5>
           <p> <?php echo $aldeano2->getBonus() ?> </p>
-          <a href="comida.php" class="btn btn-primary">Jugar</a>
+          <a href="comidaC.php" class="btn btn-primary">Jugar</a>
         </div>
       </div>
 
@@ -63,7 +63,7 @@ $pesquero = new Pesquero();
         <img src="assets/aldeano.png" class="card-img" alt="...">
         <div class="card-body">
           <h5 class="card-title"> <?php echo $pesquero->nombre ?> </h5>
-          <a href="comida.php" class="btn btn-primary">Jugar</a>
+          <a href="comidaPesquero.php" class="btn btn-primary">Jugar</a>
         </div>
       </div>
 

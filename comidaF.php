@@ -36,7 +36,7 @@ $pesca = new Pesquero();
 <main class="container" >
   <div class="row mt-5">
       <div class="col-ml-12">
-        <h2> Elegir alimento: </h2>
+        <h2> Elegir alimento Franco: </h2>
       </div>
           
     <!--creacion de personajes-->
@@ -45,20 +45,12 @@ $pesca = new Pesquero();
       <img src="assets/arbusto.jpg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title"> Alimento disponible : <?php echo $arbusto1->getAlimento()  ?> </h5>
-        <a href="resultado.php" class="btn btn-primary">  Recolectar </a>
+        <a href="resultadoFranco.php" class="btn btn-primary">  Recolectar </a>
       </div>
     </div>
     
         <!--fin de 1ro-->
-    <div class="card mx-4 my-4" style="width: 18rem;">
-          <img src="assets/arbusto.jpg" class="card-img" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">  Alimento disponible: <?php echo $pesca->recolectar() ?>  </h5>
-        <a href="resultadoFranco.php" class="btn btn-primary"> Pescar </a>
-      </div>
-    </div>
-  
-        <!--fin de personajes y cards-->
+        <!--fin de personajes y card-->
     
   </div>
 

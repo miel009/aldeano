@@ -9,7 +9,7 @@ class Pesquero
 public function __construct()
     {   
         $this->bancoDePesca = new BancoDePesca;
-        $this->nombre= "Pesquero";
+        $this->nombre= "Pesquero Manuel";
         $this->imagen= "";
     }
 

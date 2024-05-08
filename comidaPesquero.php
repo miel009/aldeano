@@ -36,7 +36,7 @@ $pesca = new Pesquero();
 <main class="container" >
   <div class="row mt-5">
       <div class="col-ml-12">
-        <h2> Elegir alimento Pesquero: </h2>
+        <h2> ELEGIR ALIMENTO PESQUERO </h2>
       </div>
           
     <!--creacion de personajes-->

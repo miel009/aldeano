@@ -11,10 +11,14 @@ body{
 .container h2 {
     text-align: center;
     color: rgb(12, 12, 12);
-    font-weight: bold;
+    font-weight: bolder;
     font-family: "Jersey 15", sans-serif;
+    margin-top: 25px;
 }
-p{
+
+
+p{  
+    
     font-family: "Jersey 15", sans-serif;
     font-weight: bolder;
 }

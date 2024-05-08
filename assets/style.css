@@ -26,27 +26,28 @@ body{
     
 }
   
-p {  
-    font: 200;
+p { 
+    font-size: 35px;
+    font-weight: border;
     text-align: center;
     color: azure;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Jersey 15", sans-serif;
 }
 
 button {
- margin: 110px;
- padding: 30x;
- font-family: "Jersey 15", sans-serif;
- font-weight: bolder;
+ margin-left: 135px ;
+ padding: 8px;
+ font-family:"Jersey 15", sans-serif;
 }
 
 a {  
     font-family: "Jersey 15", sans-serif;;
     text-align: center;
-    color: black;
+    color: rgb(60, 9, 225);
     text-decoration: none;
     font-size: 30px;
     margin: 30px;
-    padding: 45px;
+    padding: 40px;
+    font-weight: bolder;
 }
   

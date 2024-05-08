@@ -35,7 +35,7 @@ $pesquero = new Pesquero();
 
   <main class="container">
 
-    <h2> Elegir aldeano: </h2>
+    <h2> ELEGIR PERSONAJE: </h2>
     <div class="row mt-5">
       <div class="col-ml-12">
       </div>
